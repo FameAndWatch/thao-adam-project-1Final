@@ -1,0 +1,393 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: sans-serif;
+    font-size: 16px;
+    background-color: #ddd;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-weight: normal;
+    font-size: 1em;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+
+/* END OF RESET */
+
+header, footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 12px;
+    height: 60px;
+    align-items: center;
+    background-color: rgb(25, 25, 25);
+}
+header {
+    border-bottom: solid black 1px;
+}
+footer {
+    border-top: solid black 1px;
+}
+nav {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 12px 0px 0px;
+}
+.wrapper {
+    margin: 0px auto;
+    background-color: #ffff;
+}
+.logo {
+    font-weight: bold;
+    font-size: 2em;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.hero {
+    width: 100%;
+    height: 750px;
+    text-align: center;
+    background-image: url(images/classichalloweenmonsters.jpg);
+    background-size: cover;
+}
+.hero img {
+    width: 100%;
+}
+.hero h1 {
+    font-family: "true-gore", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 120px;
+    text-align: center;
+    padding: 100px;
+    color: rgb(255, 50, 18);
+}
+.hero-button {
+    font-family: "true-gore", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 14px 20px 6px 16px;
+    background-color: rgb(255, 236, 32);
+    width: 225px;
+    margin: 0px auto;
+    margin-top: 300px;
+    border-radius: 10px;
+    background-position: center;
+}
+.hero-button1 {
+    color: black;
+}
+.hero-button:hover a {
+    color: rgb(255, 236, 32);
+}
+.hero-button:hover {
+    background-color: rgb(48, 48, 48);
+}
+.container {
+    display: flex;
+    flex-direction: column;
+}
+.row-top {
+    display: flex;
+    justify-content: center;
+}
+.row-bottom {
+    display: flex;
+    justify-content: center;
+
+}
+
+/*CARD IMAGES
+.card {
+    text-align: center;
+    background-color: #ddd;
+    width: 250px;
+    margin: 10px 50px 10px 50px;
+}
+.card img {
+    width: 100%;
+}
+.card h2 {
+    font-size: 2em;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+.card p {
+    text-align: left;
+}
+.card div {
+    padding: 10px 1px 20px 16px;
+}
+*/
+.card-link {
+    display: inline-block;
+}
+.card1 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/vampire2.png);
+    background-size: 110%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card1 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 310px;
+}
+.card1:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card2 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/zombie2.jpg);
+    background-size: 120%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card2 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 310px;
+}
+.card2:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card3 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/mummy.png);
+    background-size: 130%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card3 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 310px;
+}
+.card3:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card4 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/wolfman2.png);
+    background-size: 108%;
+    background-position: center;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card4 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 310px;
+}
+.card4:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card5 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/frankensteinsmonster.jpg);
+    background-size: 100%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card5 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 280px;
+}
+.card5:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card6 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/witch.png);
+    background-size: 110%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card6 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 300px;
+}
+.card6:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card7 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/ghost2.png);
+    background-size: 110%;
+    background-position: center;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card7 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 300px;
+}
+.card7:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.card8 {
+    width: 300px;
+    height: 430px;
+    margin: 15px;
+    background-image: url(images/swampmonster.png);
+    background-size: 120%;
+    border: rgba(255, 0, 0, 0) 1px solid;
+}
+.card8 h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 36px;
+    font-family: "true-gore", sans-serif;
+    color: rgb(255, 236, 32);
+    margin-top: 300px;
+}
+.card8:hover {
+    opacity: 85%;
+    transform: scale(101%);
+}
+.about-h1 {
+    font-family: "true-gore", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    color: rgb(255, 50, 18);
+}
+.about-hero {
+    background-image: url(images/all-monsters-with-logo.png);
+    background-position: 50% 100%;
+    background-size: cover;
+    width: 900px;
+    height: 400px;
+    margin: 20px auto;
+}
+.about-form {
+    width: 360px;
+    margin: 0px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+.about-button {
+    background-color: #ddd;
+    padding: 10px 20px 10px 20px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    margin: 0px auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    font-family: "true-gore", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 20px;
+}
+.about-button:hover {
+    background-color: rgb(48, 48, 48);
+}
+.about-button a {
+    color: black;
+}
+.about-button a:hover {
+   color: rgb(255, 236, 32)
+}
+.box {
+    border: 1px solid black;
+    height: 20px;
+    width: 300px;
+    margin-left: 8px;
+    margin-bottom: 10px;    
+}
+.details {
+    margin: 0px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.details-img {
+    width: 500px;
+}
+.details-h2 {
+    margin: 45px 32px 32px 32px;
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+}
+.details-p {
+    margin: 45px 50px 45px 50px;
+    font-size: 14px;
+}
+.wikipedia {
+    color: black;
+}
+.name-h2 {
+    color: white;
+}
+.nextbutton1 {
+    width: 50px;
+    margin: 0px 20px 0px 0px;
+}
+.nextbutton1:hover {
+    opacity: 70%;
+}
+.insta-footer {
+    width: 30px;
+}
+.youtube-footer {
+    width: 40px;
+}
+.source {
+    background-color: rgb(25, 25, 25);
+    color: white;
+}
+.logo-image {
+    width: 80px;
+    transform: translate(10px);
+    margin-top: 10px;
+}
